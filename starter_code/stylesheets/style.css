@@ -95,6 +95,7 @@ body{
         border-radius: 5px;
         margin-bottom: 30px;
         color: #540B51;
+        padding: 0 200px;
     }
 
     #google-button{
@@ -135,6 +136,8 @@ body{
     /* main-section */
     /* trustedCompanies-section */
 
+
+
     .trustedCompanies{
         background-color: #F3EAE2;
     }
@@ -173,23 +176,234 @@ body{
         display: flex;
         flex-direction: column;
     }
-    #teampic{
+    #teampic {
         width: 95%;
     }
     .team-together-text{
         background-color: #F3EAE2;
-        padding: 20px;
+        padding: 20px 0;
     }
 
     .team-together-text h2{
+        padding: 0 20px;
         font-size: 60px;
     }
     .team-together-text p {
         font-size: 25px;
         font-weight: 400;
+        padding: 0 20px;
+
     }
 
     .team-together-text a{
         text-decoration: none;
+        color: #2E71A6;
+        padding: 0 20px;
+
     }
+    .team-together-text a span{
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 1.2px;
+    }
+
+    /* choose how you want to work */
+    .image-parent{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    #choose-team-pic{
+        width: 95%;
+        align-self: flex-end;
+    }
+    
+
+    /* move faster with your tools */
+
+    #move-faster-pic{
+        width: 100%;
+    }
+
+      /* Teams large and small */
+
+  .lg-sm-teams{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 60px;
   }
+
+  .lg-sm-teams > h3 {
+    font-size: 40px;
+    width: 450px;
+    text-align: center;
+  }
+
+  .lg-sm-teams > p {
+    font-size: 23px;
+    font-weight: 500;
+    width: 500px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  #buttons-teams{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lg-sm-teams button{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: white ;
+    height: 70px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 0  200px;
+  }
+
+  #purple-button{
+    color: white;
+    background-color: #540B51;
+  }
+
+  #white-button-purple-border{
+    border: 2px solid #540B51;
+    color: #540B51;
+  }
+
+  .lg-sm-teams > ul{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lg-sm-teams > ul > li > p > span{
+    font-size: 60px;
+    font-weight: 700;
+    color: #540B51;
+  }
+
+  .lg-sm-teams > ul > li > p {
+    font-size: 20px;
+    font-weight: 500;
+    width: 200px;
+  }
+
+/* welcome to your new digital HQ */
+
+  .digital-hq {
+    background-color: #540B51;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .digital-hq h3 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    width: 400px;
+  }
+
+  .white-button-purple-text{
+    
+    color: #540B51;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: white ;
+    height: 70px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 0  200px;
+  }
+
+  .purple-button-white-border{
+    color: white;
+    border: solid 1px white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #540B51 ;
+    height: 70px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 0  200px;
+  }
+  
+
+  /* footer */
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px 20px;
+  }
+  footer img{
+    width: 10%;
+    padding-left: 40px;
+  }
+
+  .footer-stacks{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px grey;
+  }
+
+
+
+  .footer-stacks > ul > li{
+    list-style-type: none;
+    padding: 15px 0;
+  }
+
+  .footer-stacks > ul > li:nth-child(1){
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  footer > ul > li {
+    list-style-type: none;
+    color: #454245;
+  }
+
+  .footer-stack-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+  }
+  
+  .footer-stack-2 li {
+    padding: 20px;
+    font-weight: 900;
+  }
+
+  .footer-stack-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  .footer-end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  }
+
