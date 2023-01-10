@@ -18,10 +18,10 @@
 
 <body>
   <nav>
-    <div>
+    <div class="navbar">
       <img src="./images/slack-logo.png" alt="Slack logo" />
 
-      <ul>
+      <ul hidden>
         <li>
           <a href="#">Product</a>
         </li>
@@ -37,7 +37,7 @@
       </ul>
     </div>
 
-    <div>
+    <div class="navbar-buttons">
       <button>
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
@@ -61,12 +61,12 @@
     <div>
       <h1>Great teamwork starts with a digital HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+      <span ><span id="littletext">Slack is free to try </span>for as long as you'd like.</p>
 
-      <div>
-        <button>Sign up with email</button>
+      <div class="header-buttons">
+        <button id="signup">Sign up with email</button>
 
-        <button>
+        <button id="google-button">
           <img src="./images/logo-google.png" alt="Google logo" />
           <span>Sign up with Google</span>
         </button>
@@ -80,26 +80,26 @@
   </header>
 
   <main>
-    <section>
+    <section class="trustedCompanies">
       <p>Trusted by companies all over the world</p>
 
-      <div>
+      <div class="company-images">
         <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
         <img src="./images/logo-nasa.png" alt="NASA logo" />
         <img src="./images/logo-uber.png" alt="Uber logo" />
-        <img src="./images/logo-target.png" alt="Target logo" />
-        <img src="./images/logo-nyt.png" alt="New York Times logo" />
-        <img src="./images/logo-spotify.png" alt="Spotify logo" />
+        <img src="./images/logo-target.png" id="target" alt="Target logo" />
+        <img src="./images/logo-nyt.png" class="long-images" alt="New York Times logo" />
+        <img src="./images/logo-spotify.png" class="long-images" alt="Spotify logo" />
       </div>
 
     </section>
 
-    <section>
+    <section class="team-together">
       <div>
-        <img src="./images/connectedness-mobile.png" alt="connectedness" />
+        <img id="teampic" src="./images/connectedness-mobile.png" alt="connectedness" />
       </div>
 
-      <div>
+      <div class="team-together-text">
         <h2>Bring your team together</h2>
 
         <p>
@@ -115,6 +115,9 @@
 
     <section>
       <div>
+        <div>
+          <img src="./images/flexibility-mobile.png" alt="flexibility" />
+        </div>
         <h2>Choose how you want to work</h2>
         <p>
           In Slack, you’ve got all the flexibility to work when, where and how it’s best for you. You can easily chat,
@@ -125,10 +128,6 @@
         <a href="#">
           <span>Learn more about flexible communication</span>
         </a>
-      </div>
-
-      <div>
-        <img src="./images/flexibility-mobile.png" alt="flexibility" />
       </div>
     </section>
 

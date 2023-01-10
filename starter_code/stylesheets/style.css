@@ -1,3 +1,8 @@
+/* resetcss */
+
+
+
+
 /*
 background purple: #540B51
 background ivory: #F3EAE2
@@ -8,3 +13,183 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    background-color: #F3EAE2;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: #F3EAE2;
+        font-family: "Roboto";
+    }
+
+/* nav-section */
+    nav{
+        display: flex;
+        justify-content: space-between;
+        background-color: #540B51;
+        padding: 20px;
+    
+
+    }
+    .navbar img{
+        height: 60px;
+    }
+    nav .navbar{
+        display:flex;
+    }
+    .navbar-buttons{
+        display: flex;
+    }
+
+    .navbar-buttons button img{
+        height: 30px;
+    }
+
+    .navbar-buttons button{
+        background-color: #540B51;
+        border: none;
+        padding: 0 20px;
+    }
+
+
+    /* header-section */
+    #littletext{
+        color: #ECB12F;
+        font-size: 25px;
+    }
+    header h1{
+        width: 500px;
+        font-size: 55px;
+    }
+
+    header{
+        padding: 20px;
+        border: none;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #540B51;
+        color: white;
+        font-size: 20px;
+    }
+    .header-buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #signup{
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        background-color: white ;
+        height: 70px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 30px;
+        color: #540B51;
+    }
+
+    #google-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #4285F4;
+        border-radius: 10px;
+        border: none;
+        height: 70px;
+        margin-bottom: 40px;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: white;
+    }
+    #google-button img{
+        align-self: center;
+        background-color: white;
+        height: 40px;
+        border-radius: 5px;
+        padding: 9px;
+    }
+
+    #google-button span {
+        align-self: center;
+        flex-grow: 1;
+        margin-right: 30px;
+    }
+
+    header img{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    /* main-section */
+    /* trustedCompanies-section */
+
+    .trustedCompanies{
+        background-color: #F3EAE2;
+    }
+    .trustedCompanies p {
+        margin: 0;
+        padding: 40px;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .company-images{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+    .company-images img{
+        width: 20%;
+        padding: 10px;
+    }
+    #target{
+        width: 15%;
+    }
+    .company-images img:nth-child(5){
+        width: 40%;
+    }
+    .company-images img:nth-child(6){
+        width: 40%;
+    }
+
+    /* bring your team together section */
+
+    .team-together{
+        display: flex;
+        flex-direction: column;
+    }
+    #teampic{
+        width: 95%;
+    }
+    .team-together-text{
+        background-color: #F3EAE2;
+        padding: 20px;
+    }
+
+    .team-together-text h2{
+        font-size: 60px;
+    }
+    .team-together-text p {
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .team-together-text a{
+        text-decoration: none;
+    }
+  }
